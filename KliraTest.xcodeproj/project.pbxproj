@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DFBC67C22BA609100D7C4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC67B22BA609100D7C4C0 /* AppDelegate.swift */; };
+		5DFBC67E22BA609100D7C4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC67D22BA609100D7C4C0 /* ViewController.swift */; };
+		5DFBC68122BA609100D7C4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFBC67F22BA609100D7C4C0 /* Main.storyboard */; };
+		5DFBC68422BA609100D7C4C0 /* KliraTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC68222BA609100D7C4C0 /* KliraTest.xcdatamodeld */; };
+		5DFBC68622BA609200D7C4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFBC68522BA609200D7C4C0 /* Assets.xcassets */; };
+		5DFBC68922BA609200D7C4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFBC68722BA609200D7C4C0 /* LaunchScreen.storyboard */; };
+		5DFBC69122BA621A00D7C4C0 /* ViewController+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC69022BA621A00D7C4C0 /* ViewController+Table.swift */; };
+		5DFBC69422BA64DD00D7C4C0 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC69322BA64DD00D7C4C0 /* HttpClient.swift */; };
+		5DFBC69622BA6C4600D7C4C0 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC69522BA6C4600D7C4C0 /* Events.swift */; };
+		5DFBC69822BA6D5000D7C4C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC69722BA6D5000D7C4C0 /* Constants.swift */; };
+		5DFBC69A22BA6F9B00D7C4C0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBC69922BA6F9B00D7C4C0 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DFBC67822BA609100D7C4C0 /* KliraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KliraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFBC67B22BA609100D7C4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DFBC67D22BA609100D7C4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DFBC68022BA609100D7C4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DFBC68322BA609100D7C4C0 /* KliraTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KliraTest.xcdatamodel; sourceTree = "<group>"; };
+		5DFBC68522BA609200D7C4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DFBC68822BA609200D7C4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DFBC68A22BA609200D7C4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFBC69022BA621A00D7C4C0 /* ViewController+Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Table.swift"; sourceTree = "<group>"; };
+		5DFBC69322BA64DD00D7C4C0 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		5DFBC69522BA6C4600D7C4C0 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		5DFBC69722BA6D5000D7C4C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5DFBC69922BA6F9B00D7C4C0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DFBC67522BA609100D7C4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2E7DCE22BB85B000B7CE71 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBC67D22BA609100D7C4C0 /* ViewController.swift */,
+				5DFBC69022BA621A00D7C4C0 /* ViewController+Table.swift */,
+				5DFBC69522BA6C4600D7C4C0 /* Events.swift */,
+				5DFBC69722BA6D5000D7C4C0 /* Constants.swift */,
+				5DFBC67B22BA609100D7C4C0 /* AppDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		5D2E7DCF22BB85E300B7CE71 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBC68722BA609200D7C4C0 /* LaunchScreen.storyboard */,
+				5DFBC67F22BA609100D7C4C0 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5DFBC66F22BA609100D7C4C0 = {
+			isa = PBXGroup;
+			children = (
+				5DFBC67A22BA609100D7C4C0 /* KliraTest */,
+				5DFBC67922BA609100D7C4C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DFBC67922BA609100D7C4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBC67822BA609100D7C4C0 /* KliraTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DFBC67A22BA609100D7C4C0 /* KliraTest */ = {
+			isa = PBXGroup;
+			children = (
+				5D2E7DCF22BB85E300B7CE71 /* view */,
+				5D2E7DCE22BB85B000B7CE71 /* app */,
+				5DFBC69B22BA703800D7C4C0 /* managers */,
+				5DFBC69222BA64CE00D7C4C0 /* helpers */,
+				5DFBC68522BA609200D7C4C0 /* Assets.xcassets */,
+				5DFBC68A22BA609200D7C4C0 /* Info.plist */,
+				5DFBC68222BA609100D7C4C0 /* KliraTest.xcdatamodeld */,
+			);
+			path = KliraTest;
+			sourceTree = "<group>";
+		};
+		5DFBC69222BA64CE00D7C4C0 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBC69322BA64DD00D7C4C0 /* HttpClient.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		5DFBC69B22BA703800D7C4C0 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBC69922BA6F9B00D7C4C0 /* DataManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DFBC67722BA609100D7C4C0 /* KliraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFBC68D22BA609200D7C4C0 /* Build configuration list for PBXNativeTarget "KliraTest" */;
+			buildPhases = (
+				5DFBC67422BA609100D7C4C0 /* Sources */,
+				5DFBC67522BA609100D7C4C0 /* Frameworks */,
+				5DFBC67622BA609100D7C4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KliraTest;
+			productName = KliraTest;
+			productReference = 5DFBC67822BA609100D7C4C0 /* KliraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DFBC67022BA609100D7C4C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Antonio Casamassa";
+				TargetAttributes = {
+					5DFBC67722BA609100D7C4C0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DFBC67322BA609100D7C4C0 /* Build configuration list for PBXProject "KliraTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DFBC66F22BA609100D7C4C0;
+			productRefGroup = 5DFBC67922BA609100D7C4C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DFBC67722BA609100D7C4C0 /* KliraTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DFBC67622BA609100D7C4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFBC68922BA609200D7C4C0 /* LaunchScreen.storyboard in Resources */,
+				5DFBC68622BA609200D7C4C0 /* Assets.xcassets in Resources */,
+				5DFBC68122BA609100D7C4C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DFBC67422BA609100D7C4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFBC69622BA6C4600D7C4C0 /* Events.swift in Sources */,
+				5DFBC69A22BA6F9B00D7C4C0 /* DataManager.swift in Sources */,
+				5DFBC69422BA64DD00D7C4C0 /* HttpClient.swift in Sources */,
+				5DFBC67E22BA609100D7C4C0 /* ViewController.swift in Sources */,
+				5DFBC67C22BA609100D7C4C0 /* AppDelegate.swift in Sources */,
+				5DFBC69822BA6D5000D7C4C0 /* Constants.swift in Sources */,
+				5DFBC68422BA609100D7C4C0 /* KliraTest.xcdatamodeld in Sources */,
+				5DFBC69122BA621A00D7C4C0 /* ViewController+Table.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DFBC67F22BA609100D7C4C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFBC68022BA609100D7C4C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DFBC68722BA609200D7C4C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFBC68822BA609200D7C4C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DFBC68B22BA609200D7C4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DFBC68C22BA609200D7C4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DFBC68E22BA609200D7C4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2837NWLW;
+				INFOPLIST_FILE = KliraTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazamazza.KliraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DFBC68F22BA609200D7C4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2837NWLW;
+				INFOPLIST_FILE = KliraTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazamazza.KliraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DFBC67322BA609100D7C4C0 /* Build configuration list for PBXProject "KliraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFBC68B22BA609200D7C4C0 /* Debug */,
+				5DFBC68C22BA609200D7C4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFBC68D22BA609200D7C4C0 /* Build configuration list for PBXNativeTarget "KliraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFBC68E22BA609200D7C4C0 /* Debug */,
+				5DFBC68F22BA609200D7C4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DFBC68222BA609100D7C4C0 /* KliraTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DFBC68322BA609100D7C4C0 /* KliraTest.xcdatamodel */,
+			);
+			currentVersion = 5DFBC68322BA609100D7C4C0 /* KliraTest.xcdatamodel */;
+			path = KliraTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DFBC67022BA609100D7C4C0 /* Project object */;
+}
